@@ -267,15 +267,14 @@ transform: translate(-50%,-50%);
 /* end of footer*/
 
 @media only screen and (max-width: 600px) {
-  body {
-     background-image:    linear-gradient(60deg, #01a383 40%,#16b696 90%);
-    padding-bottom: 60px;
-      
-      .footer_Container .social-icon{
-    display: flex;
-    margin-bottom: 30px; 
-    margin-left: 5%;
-
-} 
+    .footer_Container{
+        margin-left: 3%;
+    }
+        .footer_Container .social-icon{
+      display: flex;
+      margin-bottom: 30px; 
+      margin-left: 15%;
+  
+  
+    }
   }
-}
